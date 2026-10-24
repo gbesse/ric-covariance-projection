@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Projeter une covariance de position dans le repère orbital RIC', 'en': 'Project position covariance into the orbital RIC frame', 'es': 'Proyectar covarianza de posición al marco orbital RIC'}

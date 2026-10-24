@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ric-covariance-projection"
+version = "0.1.0a1"
+description = "FR: Projeter une covariance de position dans le repère orbital RIC | EN: Project position covariance into the orbital RIC frame | ES: Proyectar covarianza de posición al marco orbital RIC"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+ric-covariance-projection = "ric_covariance_projection.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ric_covariance_projection*"]
