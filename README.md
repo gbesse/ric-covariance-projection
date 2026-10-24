@@ -13,7 +13,7 @@ python -m unittest discover -s tests -v
 
 ### Méthode et différence
 
-Construit les axes radial, tangentiel et normal depuis position/vitesse, contrôle symétrie et mineurs principaux puis calcule R P Rᵀ. Ce nest pas une propagation orbitale ni un changement complet de covariance position-vitesse.
+Construit les axes radial, tangentiel et normal depuis position/vitesse, contrôle symétrie et mineurs principaux puis calcule R P Rᵀ. Ce n’est pas une propagation orbitale ni un changement complet de covariance position-vitesse.
 
 ### Limites
 
